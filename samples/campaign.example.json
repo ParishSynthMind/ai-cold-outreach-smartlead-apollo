@@ -1,0 +1,32 @@
+{
+  "campaign_name": "UK bakery owners - order automation - Nov",
+  "sender_name": "Sam Carter",
+  "sender_company": "Carter Automation",
+  "sender_postal_address": "12 Example Street, Leeds LS1 1AA, United Kingdom",
+  "offer": "I set up simple systems that turn website and WhatsApp orders into one tidy daily order sheet, so nobody retypes orders by hand",
+  "call_to_action": "Would a 15 minute call next week be useful?",
+  "lawful_basis": "B2B legitimate interest: owners of small UK bakeries at their work address, offer relevant to their role, LIA recorded 2026-11-25",
+  "sending_account_ids": [101],
+  "apollo_search": {
+    "person_titles": ["owner", "founder"],
+    "person_seniorities": ["owner", "founder"],
+    "organization_locations": ["United Kingdom"],
+    "organization_num_employees_ranges": ["1,10", "11,50"],
+    "q_keywords": "bakery",
+    "contact_email_status": ["verified"]
+  },
+  "allowed_countries": ["United Kingdom"],
+  "max_leads_per_search": 25,
+  "max_enrich_per_run": 5,
+  "daily_cap": 5,
+  "timezone": "Europe/London",
+  "start_hour": "09:00",
+  "end_hour": "17:00",
+  "send_days": [1, 2, 3, 4, 5],
+  "min_minutes_between_emails": 10,
+  "follow_up_delay_days": 3,
+  "sending_domain": "outreach.example.com",
+  "dkim_selectors": ["google", "default", "selector1"],
+  "claude_max_calls": 40,
+  "claude_max_usd": 0.5
+}
